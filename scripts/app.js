@@ -10,10 +10,9 @@ let savedInput;
 submitBtn.addEventListener("click", function(event){
     savedInput = myInput.value;
     console.log(savedInput);
-    
 });
 
 displayBtn.addEventListener("click", function(event){
-    inputDisplay.className = "designed";    
-    inputDisplay.innerText = savedInput;
+    inputDisplay.className = "designed";
+    inputDisplay.innerHTML = savedInput;
 });
