@@ -12,19 +12,19 @@
 </head>
 
 <body>
-    <h1 class="text-center"> Taking inputs</h1>
+    <h1 class="text-center mb-5">Taking inputs</h1>
 
 
     <div class="container">
         <div class="row row-cols-md-2">
             <!-- Create an input field  and Button -->
-            <div class="col-12 d-flex flex-column align-items-baseline align-content-between">
-                <input type="text" id="myInput">
+            <div class="col-12 mb-5 m-md-0 d-flex gap-3 justify-content-center align-items-baseline align-content-between flex-wrap">
+                <input type="text" id="myInput" class="flex-grow-1 col-12 col-lg-auto">
                 <button type="button" class="btn btn-primary d-inline" id="submitBtn">Save</button>
                 <button type="button" class="btn btn-primary d-inline" id="displayBtn">Display</button>
             </div>
             <!-- Create a place to display the value -->
-            <div class="col-12 justify-content-center">
+            <div class="col-12 mt-5 m-md-0 d-flex justify-content-center">
                 <p id="inputDisplay" class="fadeIn">Display the input here</p>
             </div>
         </div>
